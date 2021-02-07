@@ -11,6 +11,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/vendors~main.min.2e8c2ea04982b24133c4.js') }}" defer></script>
+    <script src="{{ asset('js/main.min.a19e72105dc10b54d7be.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -18,6 +20,16 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+	<style>
+		.card label {
+			margin-right: 1em;
+		}
+
+		.card {
+			padding: .5em 1em;
+		}
+
+	</style>
 </head>
 <body>
     <div id="app">

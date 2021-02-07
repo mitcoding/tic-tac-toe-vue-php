@@ -27,3 +27,5 @@ DBM::webRoutes();
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::view('/tic-tac-toe', 'tic-tac-toe');
